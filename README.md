@@ -47,3 +47,76 @@
 
 - 実務であまり触れられないインフラ周りをプロジェクト3で補完
 - 完了したらDockerでの構築もやってみる
+
+
+# 2023 10/17
+
+## やったこと
+
+### LeetCode(木構造)
+
+[Subtree of Another Tree - LeetCode](https://leetcode.com/problems/subtree-of-another-tree/description/)
+
+[Lowest Common Ancestor of a Binary Search Tree - LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
+
+### Backend Project3
+  - NGINXの設定(サイトのデフォルト表示設定)
+      - /etc/nginx/sites-available/defaultがNginxの設定ファイル
+      - root /var/www/html;　←がデフォルトのルートパス
+  - Filezillaのインストール
+  - FilezillaでEC2インスタンスに接続
+  - フリー素材を本番のmediaフォルダに送信
+      - SFTPで通信を暗号化して送信(FTPをSSH接続で送信する仕組み)
+  - ウェブサーバのドメインについてのインプット
+    
+    **Static Web Servers　進行度84%**
+    
+## 学習方針
+  - 実務であまり触れられないインフラ周りをプロジェクト3で補完
+  - 完了したらDockerでの構築もやってみる
+
+
+# 2023 10/18
+
+## やったこと
+
+- LeetCode(木構造)
+
+[Validate Binary Search Tree - LeetCode](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
+[Kth Smallest Element in a BST - LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
+
+### Backend Project3(**進行度86%**)
+  - 独自ドメインの取得(お名前.com)
+  - DNS設定
+      - サブドメイン設定
+  - ドメイン名で出力先を変更(Nginxの設定)
+    
+## 課題
+
+- シンボリックリンクについて理解が曖昧
+- LeetCodeのMedium以上になると正答率が一気に下がる(ある程度パターンを網羅しなきゃダメかも)
+- atcoderの問題にも取り組みたい
+- 技術質問対策も少しずつ進めたい
+
+
+# 2023 10/19
+
+## やったこと
+
+### LeetCode(木構造)
+
+[Count Good Nodes in Binary Tree - LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)
+
+[Construct Binary Tree from Preorder and Inorder Traversal - LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+
+### Backend Project3(**進行度100%**)
+  - TLSの概要学習
+  - TLSの設定
+  - snapインストール(ubuntuのパッケージ管理)
+  - Certbotインストール(Lets EncryptをCLIから使える)
+  - TLS 認証を処理
+    
+## 課題
+- レジェメ用のページ作成
+- TLSの仕組みを口頭で説明できるようにする(面接対策)
