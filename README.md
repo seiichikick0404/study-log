@@ -120,3 +120,30 @@
 ## 課題
 - レジェメ用のページ作成
 - TLSの仕組みを口頭で説明できるようにする(面接対策)
+
+
+# 2023 10/19
+
+## やったこと
+
+### AtcoderB問題
+[B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b)
+[B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b)
+[B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+
+## 課題
+- AtCorderのA~C問題レベルを確実に解けるようしたい(コーディングテストで多いらしい)
+- まずは茶色コーダー目指す
+
+
+# 2023 10/20
+
+## やったこと
+
+### Atcoderのコンテストに参加
+
+## 課題
+- A,B問題を15分以内に解く
+- 簡単なC問題は解けるようにする
+- オンラインコーディングテストは競プロに近い問題らしい？
+
