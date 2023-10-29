@@ -147,3 +147,131 @@
 - 簡単なC問題は解けるようにする
 - オンラインコーディングテストは競プロに近い問題らしい？
 
+
+# 2023 10/23
+
+## やったこと
+
+## AtcoderB問題
+
+[B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b)
+[B - Uneven Numbers](https://atcoder.jp/contests/abc136/tasks/abc136_b)
+
+## カジュアル面談1件
+
+- 人事だけだったので技術的な会話はできなかった
+- 選考は人事・エンジニアとの面接とCTOとの面接で決定
+- コーディングテストは無いらしい
+
+## 課題
+
+- まずは一番出題率が高い全探索問題周りから潰す
+- Recursionプロジェクトのレジェメページを作成するか検討
+- 面談は緊張すると会話が途切れてしまうので場数を増やしたい
+
+# 2023 10/24
+
+## やったこと
+
+## Atcoder B・C問題
+
+[B - K-th Common Divisor](https://atcoder.jp/contests/abc120/tasks/abc120_b)
+[C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
+[C - Half and Half](https://atcoder.jp/contests/arc096/tasks/arc096_a)
+
+## Backend Project3
+
+- 本番環境にレジェメディレクトリを作成
+- ポートフォリオ作成用の無料HTMLテンプレートの取得
+
+## 課題
+
+- AtCoderのC問題の正答率が低い
+- Nginxの設定周りがあまり理解できてないので別途で調査する
+- アルゴリズム対策としてLeetCodeも継続する
+
+
+# 2023 10/26
+
+## やったこと
+
+## Atcoder B問題
+
+[B - Measure](https://atcoder.jp/contests/abc319/tasks/abc319_b)
+
+## Backend Project3
+
+- シンボリックリンクのバグを解消
+    - sudo rm /etc/nginx/sites-enabled/resume.seiprojectsを実行して解決できた
+    - sudo nginx -tコマンドで構文エラーを検出できる ← これで問題箇所の特定ができた
+- DNSリソースレコードの設定
+    - レジェメ用のドメインを再設定
+- TLS対応(SSL化)
+
+下記がレジェメ用のページ
+
+[WebデザイナーTARO YAMADA ポートフォリオ](https://resume.seiprojects.com/)
+
+## 課題
+
+- AtCoderの問題が思いのほか解けない
+    - ある程度の慣れと競プロの技術書で対応
+- テンプレートを自分用に変更する
+
+# 2023 10/27
+
+## やったこと
+
+## Atcoder B問題
+
+[B - Overlapping sheets](https://atcoder.jp/contests/abc318/tasks/abc318_b)
+
+[B - Cutoff](https://atcoder.jp/contests/abc321/tasks/abc321_b)
+
+## Backend Project3
+
+- 作成したサイトに成果物を掲載
+
+下記がレジェメ用のページ
+
+[WebデザイナーTARO YAMADA ポートフォリオ](https://resume.seiprojects.com/)
+
+## 課題
+
+- 職務経歴書作成次第、PDFでDLできるリンクを追加
+- あくまでバックエンドなので見た目は本当に最低限のところで止める
+- デプロイを簡略化したい
+  - 今は本番サーバにSSH接続してgit pull コマンドで更新してるため
+
+
+# 2023 10/28
+
+## やったこと
+
+## AtCoder復習
+
+[C - Peak](https://atcoder.jp/contests/abc326/tasks/abc326_c)
+
+[B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b)
+
+[C - Peak](https://atcoder.jp/contests/abc326/tasks/abc326_c)
+
+[B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+
+## Backend Project3
+
+- デプロイの自動化(GitHub Actions)
+    - リポジトリでシークレットキー設定
+        - SERVER_HOST(サーバーのIPアドレス)
+        - SERVER_USERNAME(SSHログイン時のユーザー名)
+        - SSH_PRIVATE_KEY(秘密鍵パス .pemファイルの中身全て)
+    - ymlファイルに自動化したい処理を記述する
+        - 今回の場合はmainブランチの更新をトリガーにしてサーバにSSH接続をしてPJディレクトリに移動しgit pull origin mainを実行
+
+## 課題・感想
+
+- Backend Project3はレジェメができたらDLできるようにする(一旦完成)
+- Atcoderのコンテストを受けたら翌日に必ず復習しておく(A~C)
+- 次はBackend Projectは4をやるか2をやるか迷う
+
+
