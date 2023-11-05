@@ -275,3 +275,182 @@
 - 次はBackend Projectは4をやるか2をやるか迷う
 
 
+# 2023 10/30
+
+## やったこと
+
+## AtCoder復習
+
+[B - MissingNo.](https://atcoder.jp/contests/abc317/tasks/abc317_b)
+
+[B - The Middle Day](https://atcoder.jp/contests/abc315/tasks/abc315_b)
+
+## Backend Project4
+
+- PHPの基礎確認
+
+## 課題・感想
+
+- 結構OOPでの開発メイン？っぽいので現状の優先度としては低いかも？
+とはいえインフラ周りの学習はもう少しやりたいので進めてみる
+- 職務経歴書の作成を少しずつ進めていきたい
+
+# 2023 10/31
+
+## やったこと
+
+## AtCoder
+
+[B - Roulette](https://atcoder.jp/contests/abc314/tasks/abc314_b)
+
+[B - Who is Saikyo?](https://atcoder.jp/contests/abc313/tasks/abc313_b)
+
+## Backend Project4
+
+- PHPの基礎確認
+- Food Service SimulationはOOPメインなので飛ばす
+
+## カジュアル面談
+
+- ゲームメディア運営
+- 親会社はメガベン規模(上場してる)みたい
+- 今回来たオファーはその子会社で開発規模は小規模
+
+## 課題・感想
+
+- 時間も限られてるのでバックエンドプロジェクトも必要な部分のみに絞る
+- 良さげな企業はどんどんアポとってカジュアル面談していく
+- 転職エージェントやユートラスト？も始めてみる
+
+
+# 2023 11/1
+
+## やったこと
+
+## AtCoder
+
+[B - TaK Code](https://atcoder.jp/contests/abc312/tasks/abc312_b)
+
+[B - Vacation Together](https://atcoder.jp/contests/abc311/tasks/abc311_b)
+
+## Backend Project4
+
+- ****Restaurant Chain Mockup****
+    - Git HubのリポジトリをSSH設定(ここで結構ハマった)
+    - フォルダ構成の作成
+    - 各クラスにプロパティを設定
+
+## GitHubのSSH接続のエラー
+
+**事象**
+
+→ ローカルからリモートリポジトリにpushできるようにSSHキーを作成してgit cloneをしたところエラーが発生
+
+**原因**
+
+→ 接続先のサーバーが正当であることを確認するためのホストキーが変更されたため整合性が取れなくなった。
+このホストキーは特定のサーバーと接続する際に**`known_hosts`**ファイルに保存されるため過去にGitHubのSSHキーを設定して、今回新たに作成し直したことでエラーが発生した。
+known_hostsファイルの古い記述を削除して、新たなホストキーを設定して解決
+
+## 技術質問対策
+
+**3ウェイハンドシェイクとは何か？**
+
+- TCP接続をする際に行う通信処理
+- クライアントがsynパケットを送信(シーケンス番号)
+- サーバがsynパケット内のシーケンス番号に+1をして自身のシーケンス番号を作成しACKパケットとして送信
+- クライアントがそれぞれのシーケンス番号に+1をして送信して完了
+
+上記を良い感じにまとめて伝える
+
+## 課題・感想
+
+- 時間も限られてるのでバックエンドプロジェクトも必要な部分のみに絞る
+- 良さげな企業はどんどんアポとってカジュアル面談していく
+- 転職エージェントやユートラスト？も始めてみる
+
+
+# 2023 11/2
+
+## やったこと
+
+## AtCoder
+
+[B - Strictly Superior](https://atcoder.jp/contests/abc310/tasks/abc310_b)
+
+[B - Rotate](https://atcoder.jp/contests/abc309/tasks/abc309_b)
+
+## 技術質問対策
+
+## **YOUTRUST登録**
+
+- 最低限のプロフィール入力
+- レジェメを載せた
+
+
+# 2023 11/3
+
+## やったこと
+
+## AtCoder
+
+[B - Default Price](https://atcoder.jp/contests/abc308/tasks/abc308_b)
+
+[B - racecar](https://atcoder.jp/contests/abc307/tasks/abc307_b)
+
+[B - Base 2](https://atcoder.jp/contests/abc306/tasks/abc306_b)
+
+[B - ABCDEFG](https://atcoder.jp/contests/abc305/tasks/abc305_b)
+
+## BackendProject4
+
+- ****Restaurant Chain Mockup****
+    - 従業員データ出力
+    - FileConvertibleインターフェースを実装
+    - 全てのクラスのプロパティを設定
+
+## 課題・感想
+
+- ****Restaurant Chain Mockupは****20時間以内に終わらせたい
+- AtCoderのマス目問題が苦手なので必ず復習する
+
+
+# 2023 11/4
+
+## やったこと
+
+## AtCoder 復習
+
+[B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b)
+
+[B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+
+[B - Uneven Numbers](https://atcoder.jp/contests/abc136/tasks/abc136_b)
+
+[B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b)
+
+[B - K-th Common Divisor](https://atcoder.jp/contests/abc120/tasks/abc120_b)
+
+## BackendProject4
+
+- ****Restaurant Chain Mockup****
+    - 従業員データ出力
+    - FileConvertibleインターフェースを実装
+    - 全てのクラスのプロパティを設定
+
+## 課題・感想
+
+- ****Restaurant Chain Mockupは****20時間以内に終わらせたい
+- AtCoderのマス目問題が苦手なので必ず復習する
+
+# 2023 11/4
+
+## やったこと
+
+## AtCoder 復習
+
+[B - Measure](https://atcoder.jp/contests/abc319/tasks/abc319_b)
+
+[C - Half and Half](https://atcoder.jp/contests/arc096/tasks/arc096_a)
+
+[C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
