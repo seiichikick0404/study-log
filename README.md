@@ -443,14 +443,177 @@ known_hostsファイルの古い記述を削除して、新たなホストキー
 - ****Restaurant Chain Mockupは****20時間以内に終わらせたい
 - AtCoderのマス目問題が苦手なので必ず復習する
 
-# 2023 11/4
+# 2023 11/5
 
 ## やったこと
 
 ## AtCoder 復習
 
 [B - Measure](https://atcoder.jp/contests/abc319/tasks/abc319_b)
-
 [C - Half and Half](https://atcoder.jp/contests/arc096/tasks/arc096_a)
-
 [C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)
+
+
+# 2023 11/13
+
+## やったこと
+
+## AtCoder
+[B - ASCII Art](https://atcoder.jp/contests/abc294/tasks/abc294_b)
+[B - Bombs](https://atcoder.jp/contests/abc295/tasks/abc295_b)
+
+## BackendProject4
+
+- ****Restaurant Chain Mockup****
+    - スタイリングの調整
+    - リファクタリング
+        - docコメントの追加
+        - ゲッターの追加
+
+## 課題・感想
+
+- 先週は学習時間が取れなかったので今週で取り返す
+
+
+# 2023 11/14
+
+## やったこと
+
+## AtCoder
+
+ 
+
+## BackendProject4
+
+- ****Restaurant Chain Mockup 拡張版****
+    - フォーム画面の作成
+    - POST値のバリデーション適用
+
+## 課題・感想
+
+- チーム開発までにバックエンドプロジェクト4の完成
+- 面接対策のための予定立てる
+
+
+# 2023 11/15
+
+## やったこと
+
+## AtCoder
+
+[B - Trimmed Mean](https://atcoder.jp/contests/abc291/tasks/abc291_b)
+[B - Call the ID Number](https://atcoder.jp/contests/abc293/tasks/abc293_b)
+
+## BackendProject4
+
+- ****Restaurant Chain Mockup 拡張版****
+    - 拡張に伴いRondomGanarageクラスを拡張
+    - 各クラス(User, RestaurantChain, Location)の拡張
+    - 入力値に合わせてオブジェクト生成
+
+## 課題・感想
+
+- JSON形式やマークダウンの形式での出力方法
+- 転職エージェントに登録してみる
+
+# 2023 11/16
+
+## やったこと
+
+## AtCoder
+
+[B - Qual B](https://atcoder.jp/contests/abc290/tasks/abc290_b)
+
+[B - Trimmed Mean](https://atcoder.jp/contests/abc291/tasks/abc291_b)
+
+[B - V](https://atcoder.jp/contests/abc289/tasks/abc289_b)
+
+## BackendProject4
+
+- マークダウン形式に対応
+- json形式のダウンロード
+- テキスト形式のダウンロード
+- HTML形式で出力
+
+## 課題・感想
+
+- リファクタリングが必要
+- 職務経歴書作成
+
+# 2023 11/17
+
+## やったこと
+
+## AtCoder
+
+[B - Cat](https://atcoder.jp/contests/abc286/tasks/abc286_b)
+[B - Postal Card](https://atcoder.jp/contests/abc287/tasks/abc287_b)
+[B - Qualification Contest](https://atcoder.jp/contests/abc288/tasks/abc288_b)
+
+## BackendProject4
+
+- リファクタリング
+    - 不要な記述やimportを削除
+    - インデント修正
+    - 責務の分離(主に関数)
+    - Docコメントを追記
+- README作成
+
+## 課題・感想
+
+- バリデーションやテストコードは追加しても良いかも
+
+# 2023 11/17
+
+## やったこと
+
+## AtCoder
+
+[B - Cat](https://atcoder.jp/contests/abc286/tasks/abc286_b)
+
+[B - Postal Card](https://atcoder.jp/contests/abc287/tasks/abc287_b)
+
+[B - Qualification Contest](https://atcoder.jp/contests/abc288/tasks/abc288_b)
+
+## BackendProject4
+
+- リファクタリング
+    - 不要な記述やimportを削除
+    - インデント修正
+    - 責務の分離(主に関数)
+    - Docコメントを追記
+- README作成
+
+## 課題・感想
+
+- バリデーションやテストコードは追加しても良いかも
+
+# 2023 11/17
+
+## やったこと
+
+## AtCoder(復習)
+
+[B - Who is Saikyo?](https://atcoder.jp/contests/abc313/tasks/abc313_b)
+
+[B - Roulette](https://atcoder.jp/contests/abc314/tasks/abc314_b)
+
+[B - The Middle Day](https://atcoder.jp/contests/abc315/tasks/abc315_b)
+
+[](http://er.jp/contests/abc317/tasks/abc317_b)
+
+[B - Cutoff](https://atcoder.jp/contests/abc321/tasks/abc321_b)
+
+## BackendProject4
+
+- .gitignore設定
+- 依存関係のインストール(PHP, comporser)
+- シンボリックリンクの設定
+- リバースプロキシの設定
+    
+    
+
+## 課題・感想
+
+- TLS設定
+- サブドメイン設定のハンズオン作成
