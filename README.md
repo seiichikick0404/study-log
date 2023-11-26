@@ -617,3 +617,163 @@ known_hostsファイルの古い記述を削除して、新たなホストキー
 
 - TLS設定
 - サブドメイン設定のハンズオン作成
+
+
+
+# 2023 11/19
+
+## やったこと
+
+## AtCoder
+
+## RestaurantChainMockup
+
+- .TLS設定
+- 本番デプロイ
+
+[](https://restaurant-chain-mockup.seiprojects.com/download.php)
+
+## MarkdownToHtml
+
+- Parsedownのインストール
+- monaco-editorインストール
+- エディタービューを作成
+
+## 課題・感想
+
+- TLS設定
+- サブドメイン設定のハンズオン作成
+
+
+# 2023 11/21
+
+## やったこと
+
+## AtCoder(復習)
+
+[B - Multi Test Cases](https://atcoder.jp/contests/abc284/tasks/abc284_b)
+
+[B - Longest Uncommon Prefix](https://atcoder.jp/contests/abc285/tasks/abc285_b)
+
+## BackendProject4
+
+- タブ切り替え用のボタンを配置
+- マークダウン→HTMLをリアルタイムでレンダリング
+
+![スクリーンショット 2023-11-21 23.40.15.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/67cb1864-236b-4111-a654-d01489bc5ec5/dfc5d1ad-11c2-4e88-bbe3-fb0472adde79/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-11-21_23.40.15.png)
+
+## 課題・感想
+
+- B問題の正答率はかなり上がったがレートはあまり上がらない
+- 少しずつC問題への対応もしていく必要がある
+- タブ切り替えでのモード変更ロジックを
+- コードスニペットとかもできるか調査
+
+
+# 2023 11/22
+
+## やったこと
+
+## AtCoder
+
+[B - Inverse Prefix Sum](https://atcoder.jp/contests/abc280/tasks/abc280_b)
+
+[B - Sandwich Number](https://atcoder.jp/contests/abc281/tasks/abc281_b)
+
+## BackendProject4
+
+- ハイライトの適用
+- heighlight.jsのインストール
+
+![スクリーンショット 2023-11-22 23.46.51.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/67cb1864-236b-4111-a654-d01489bc5ec5/6f9d61cf-0731-4849-b56e-e2399673ea6d/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-11-22_23.46.51.png)
+
+
+# 2023 11/23
+
+## やったこと
+
+## AtCoder
+
+[B - Misjudge the Time](https://atcoder.jp/contests/abc278/tasks/abc278_b)
+
+[B - LOOKUP](https://atcoder.jp/contests/abc279/tasks/abc279_b)
+
+## BackendProject4
+
+- HTMLダウンロード
+- HTMLを文字列で出力
+- ハイライトのオン・オフをボタンに表示
+
+![スクリーンショット 2023-11-22 23.46.51.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/67cb1864-236b-4111-a654-d01489bc5ec5/6f9d61cf-0731-4849-b56e-e2399673ea6d/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-11-22_23.46.51.png)
+
+## 課題・感想
+
+- リファクタリング
+- B問題は15分いないで解きたい
+
+# 2023 11/24
+
+## やったこと
+
+## AtCoder
+
+[B - Adjacency List](https://atcoder.jp/contests/abc276/tasks/abc276_b)
+
+[B - Playing Cards Validation](https://atcoder.jp/contests/abc277/tasks/abc277_b)
+
+## BackendProject4
+
+- ダウンロード形式を変える
+
+![スクリーンショット 2023-11-22 23.46.51.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/67cb1864-236b-4111-a654-d01489bc5ec5/6f9d61cf-0731-4849-b56e-e2399673ea6d/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-11-22_23.46.51.png)
+
+## 課題・感想
+
+- リファクタリング
+- B問題は15分いないで解きたい
+
+# 2023 11/25
+
+## やったこと
+
+## AtCoderコンテスト参加
+
+## チーム開発初回
+
+https://github.com/Recursion-GroupB-Backend/dev-log
+
+- stage1を各自で取り組むため、BackendProject2を1から学習
+- pythonでのプロセス間通信について学習
+- TCPとUDPについて
+
+![スクリーンショット 2023-11-25 23.10.42.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/67cb1864-236b-4111-a654-d01489bc5ec5/5eecac4e-00b5-4539-a54c-bc49fa2d6055/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-11-25_23.10.42.png)
+
+## 課題・感想
+
+- プロセス間通信がいまいち理解ができない
+- ドキュメントを作りながら自分で実装するしかななそう
+
+# 2023 11/26
+
+## やったこと
+
+## AtCoder
+
+[A - Counting Passes](https://atcoder.jp/contests/abc330/tasks/abc330_a)
+
+[B - Minimize Abs 1](https://atcoder.jp/contests/abc330/tasks/abc330_b)
+
+[C - Minimize Abs 2](https://atcoder.jp/contests/abc330/tasks/abc330_c)
+
+[D - Counting Ls](https://atcoder.jp/contests/abc330/tasks/abc330_d)
+
+## チーム開発
+
+- Local Chat Messenger開発
+- UNIX ドメインソケットを介した通信の学習(ファイルをアドレスとして扱う)
+- APIとRPCについての学習
+
+## 課題・感想
+
+- OSや通信プロトコルは繰り返しアウトプットしながら実装しないと理解が難しい
+- 今回はかなり早足になってるのでチーム開発終了後にドキュメントとしてまとめたい
